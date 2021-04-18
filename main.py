@@ -14,3 +14,5 @@ core_data = pd.DataFrame({
   'Dendro' : [1, 'INFJ'],
   'Cryo' : [0],
   'Geo' : [0]})
+
+core_data
