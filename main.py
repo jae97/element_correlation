@@ -16,7 +16,7 @@ core_data = pd.DataFrame({
   'Entry 4' : ['Dendro', 'INFJ'],
   'Entry 5' : ['Pyro', 'INFJ'],
   'Entry 6' : ['Anemo', 'INFP'],
-  'Entry 7' : ['Hydro', 'ISTP'], index = ['Element', 'Personality Type']})
+  'Entry 7' : ['Hydro', 'ISTP']})
 
 if st.sidebar.checkbox('Show graph'):
   sns.barplot(x=core_data.index, y=core_data['Electro'])
