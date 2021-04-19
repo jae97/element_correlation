@@ -16,4 +16,4 @@ core_data = pd.DataFrame({
   })
 
 if st.sidebar.checkbox('Show graph'):
-  sns.barplot(x=core_data.index, y=core_data['Electro'])
+  sns.barplot(x=core_data.index, y=core_data['Elements'])
