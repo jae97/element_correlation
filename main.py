@@ -7,12 +7,13 @@ st.title('Element Correlation')
 st.write("In this mini project, I will be seeing if there is any correlation between one's favorite element and their personality traits.")
 
 core_data = pd.DataFrame({
-  'Pyro' : [1, 'ESFP'],
-  'Hydro' : [2, 'ISTP'],
-  'Anemo' : [1, 'INFP'],
-  'Electro' : [2, 'INFP'],
-  'Dendro' : [1, 'INFJ'],
-  'Cryo' : [0],
-  'Geo' : [0]})
+  'Entry 1' : ['Electro', 'INFP'],
+  'Entry 2' : ['Hydro', 'ISTP'],
+  'Entry 3' : ['Electro', 'INFP'],
+  'Entry 4' : ['Dendro', 'INFJ'],
+  'Entry 5' : ['Pyro', 'INFJ'],
+  'Entry 6' : ['Anemo', 'INFP'],
+  'Entry 7' : ['Hydro', 'ISTP']})
 
-core_data
+if st.sidebar.checkbox('Show graph'):
+  st.bar_graph(core_data)
