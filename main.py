@@ -3,8 +3,6 @@ import numpy as np
 import pandas as pd
 pd.plotting.register_matplotlib_converters()
 import time
-import matplotlib.pyplot as plt
-%matplotlib inline
 import seaborn as sns
 
 st.title('Element Correlation')
