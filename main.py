@@ -5,7 +5,6 @@ pd.plotting.register_matplotlib_converters()
 import time
 import matplotlib.pyplot as plt
 import seaborn as sns
-$pip3 freeze > requirements.txt
 
 st.title('Element Correlation')
 st.write("In this mini project, I will be seeing if there is any correlation between one's favorite element and their personality traits.")
